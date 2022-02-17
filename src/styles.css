@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.toast {
+  position: fixed;
+  bottom: 1rem;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.error {
+  background-color: rgb(192, 33, 33);
+}
+.success {
+  background-color: rgb(46, 192, 33);
+}
+.warning {
+  background-color: rgb(226, 184, 45);
+}
+
+.toast-msg {
+  font-size: 1.3rem;
+}
+
+.toast-btn {
+  border: none;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
